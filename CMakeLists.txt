@@ -14,7 +14,7 @@ configure_file(
 )
 
 set(WITH_PTCS_USE ON CACHE BOOL "Use Ptcs")
-# set(FIND_CUDA ON CACHE BOOL "Find CUDA")
+set(FIND_CUDA ON CACHE BOOL "Find CUDA")
 
 if(FIND_CUDA)
     find_package(CUDA )
